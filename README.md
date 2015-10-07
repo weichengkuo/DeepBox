@@ -154,4 +154,4 @@ Test output is written underneath `$FDBOX_ROOT/output/default/coco_val2014`.
 
 ```Shell
 python ./tools/demo.py (Show all demo options)
-python ./tools/demo.py --demo 0 --frame 0 --numboxes 5 (Demo on frame #0 of COCO val set showing top 5 proposals)
+python ./tools/demo.py --demo 0 --frame 0 --numboxes 5 (Demo on frame 0 of COCO val set showing top 5 proposals)
