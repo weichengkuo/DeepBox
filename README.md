@@ -146,6 +146,7 @@ Train output is written underneath `$FDBOX_ROOT/output/default/coco_train2014`.
 ```Shell
 python ./tools/test_net.py (Show all testing options)
 python ./tools/test_net.py --gpu 0 (Test on GPU 0)
+python ./tools/test_net.py --imdb coco_test-dev2015 (Test on Test-dev split)  
 ```
 
 Test output is written underneath `$FDBOX_ROOT/output/default/coco_val2014`.
