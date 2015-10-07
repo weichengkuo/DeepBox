@@ -115,7 +115,7 @@ Here are the steps to set up full functionalities of DeeBox package.
     cd $FDBOX_ROOT/data
     ln -s PATH/TO/YOUR/COCO ./MSCOCO
     ```
-    If you haven't installed COCO on your machine yet, you can follow the instructions on the github page below to download and compile all the data. 
+    If you haven't installed COCO on your machine yet, you can follow the instructions on the following github page to download and compile all the data. 
    -[MSCOCO](https://github.com/pdollar/coco)
 
 4.  Download pre-trained ImageNet models
@@ -154,4 +154,4 @@ Test output is written underneath `$FDBOX_ROOT/output/default/coco_val2014`.
 
 ```Shell
 python ./tools/demo.py (Show all demo options)
-python ./tools/demo.py --demo 0 (full demo)
+python ./tools/demo.py --demo 0 --frame 0 --numboxes 5 (Demo on frame #0 of COCO val set showing top 5 proposals)
