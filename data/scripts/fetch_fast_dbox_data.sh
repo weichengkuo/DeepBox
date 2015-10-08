@@ -6,7 +6,7 @@ cd $DIR
 NAME="fast_dbox_data"
 EXT=".tgz"
 FILE=$NAME$EXT
-URL=https://www.dropbox.com/s/g0hjez84mwb2g2i/fast_dbox_data.tgz?dl=0
+URL=ftp://ftp.cs.berkeley.edu/pub/projects/vision/$FILE
 CHECKSUM=1489ffc9a84508fde71259cd76d3208b
 
 if [ -f $FILE ]; then

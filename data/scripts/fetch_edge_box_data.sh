@@ -6,7 +6,7 @@ NAME="edge_box_data"
 EXT=".tgz"
 FILE=$NAME$EXT
 echo $FILE
-URL=http://www.cs.berkeley.edu/~wckuo/fast-dbox-data/$FILE
+URL=ftp://ftp.cs.berkeley.edu/pub/projects/vision/$FILE
 CHECKSUM=c341da31579e305292bf5ec08298b87c
 
 if [ -f $FILE ]; then
