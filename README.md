@@ -1,6 +1,6 @@
 # DeepBox: Learning Objectness with Convolutional Networks
 
-Created by Weicheng Kuo at UC Berkeley
+Created by [Weicheng Kuo](http://www.eecs.berkeley.edu/~wckuo/) at UC Berkeley
 
 ### Introduction
 
