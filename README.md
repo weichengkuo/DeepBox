@@ -149,7 +149,7 @@ python ./tools/test_net.py --gpu 0 (Test on GPU 0)
 python ./tools/test_net.py --imdb coco_test-dev2015 (Test on Test-dev split)  
 ```
 
-Test output is written underneath `$FDBOX_ROOT/output/default/coco_val2014`.
+Test output is written underneath `$FDBOX_ROOT/output/default/coco_val2014` by default. If you test on test-dev, it will be underneath coco_test-dev2015 instead.
 
 **Full Demo** a pre-trained Fast DeepBox proposer on COCO val set
 
