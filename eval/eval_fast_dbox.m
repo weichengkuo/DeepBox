@@ -1,9 +1,7 @@
 % Setup directories
 function eval_fast_dbox()
 name = 'fast-dbox-multiscale';
-%name = 'ebox_3_ss_73_iter_120000';
-suffix = ['fast_rcnn_dbox_' name];
-%load COCO annotations for specific categories
+suffix = ['results_' name];
 addpath('./MSCOCO/MatlabAPI');
 dataDir='./MSCOCO'; 
 split = 'val';
@@ -11,7 +9,7 @@ year = '2014';
 dataType = [split year];
 annFile=sprintf('%s/annotations/instances_%s.json',dataDir,dataType);
 
-%% load coco non ovlap with imagenet categories
+%% load coco
 coco=CocoApi(annFile);
 imgIds = coco.getImgIds();
 num_imgs = numel(imgIds);

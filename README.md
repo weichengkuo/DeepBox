@@ -158,6 +158,15 @@ python ./tools/demo.py (Show all demo options)
 python ./tools/demo.py --demo 0 --frame 0 --numboxes 5 (Demo on frame 0 of COCO val set showing top 5 proposals)
 ```
 
+**Evaluate** the test result. This part is written in Matlab. First launch your Matlab in $FDBOX_ROOT. Then do the following:
+
+```Shell
+cd ./eval
+eval_fast_dbox
+plot_fast_dbox(name)
+```
+The evaluation output will be printed and the Recall-vs-NumOfProposals plots will be shown. 
+
 ### Extra-downloads
 
   Pre-computed Fast DeepBox proposals on COCO train, val, and test-dev. 

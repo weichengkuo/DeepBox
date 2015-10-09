@@ -1,5 +1,5 @@
-function plot_fast_rcnn(name)
-load(['fast_rcnn_dbox_' name '.mat']);
+function plot_fast_dbox(name)
+load(['result_' name '.mat']);
 dr_e = mean_edgebox./sum_gt;
 dr_ds = mean_dbox_Mprop./sum_gt; 
 thr_num = [1 2 5 10 20 50 100 200 500 1000 2000];
