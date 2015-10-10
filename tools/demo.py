@@ -20,7 +20,6 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__),
 
 from fast_dbox_config import cfg, cfg_from_file
 import fast_dbox_test
-from datasets.factory import get_imdb
 import caffe
 import argparse
 import pprint
@@ -85,6 +84,7 @@ if __name__ == '__main__':
     net.name = os.path.splitext(os.path.basename(args.caffemodel))[0]
     
     if args.demo_quick is 0:
+        from datasets.factory import get_imdb
         imdb = get_imdb(args.imdb_name)
         fast_dbox_test.demo_net(net, imdb, args.frame, args.num_boxes_vis)
     else:
