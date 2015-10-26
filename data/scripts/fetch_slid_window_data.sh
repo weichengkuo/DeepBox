@@ -5,7 +5,7 @@ cd $DIR
 
 FILE=slid_window_data.tgz
 URL=http://www.cs.berkeley.edu/~wckuo/fast-dbox-data/$FILE
-CHECKSUM=351c1088ec4362f8a02df3bfd041a896
+CHECKSUM=cb24fcee9d7b83286e56e01f959ebc23
 
 if [ -f $FILE ]; then
   echo "File already exists. Checking md5..."
