@@ -50,7 +50,7 @@ If you find Fast DeepBox useful in your research, please consider citing:
 
 1. Clone the Fast DeepBox repository
   ```Shell
-  git clone https://github.com/weichengkuo/fast-dbox.git
+  git clone https://github.com/weichengkuo/DeepBox.git
   ```
   
 2. We'll call the directory that you cloned Fast DeepBox into `FDBOX_ROOT`
